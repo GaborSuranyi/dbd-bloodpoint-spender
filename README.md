@@ -6,7 +6,7 @@ and using it can count as breaching terms and conditions.*
 
 With that said, I have used it now for weeks, and I have not been on the end of a banhammer.
 
-**USE AT YOUR OWN DESCRETION**
+**USE AT YOUR OWN DISCRETION**
 
 ## Installation - Autohotkey
 This tool comes in the form of a simple script for an automation scripting language called AutoHotkey.
