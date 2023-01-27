@@ -8,6 +8,8 @@ searchBoxYStart = 0
 searchBoxXEnd = 0
 searchBoxYEnd = 0
 
+circleCut = images\circle_cut_sections_vertical_xs2.png
+
 if A_ScreenHeight = 1440
 {
 	searchBoxXStart = 280
@@ -22,6 +24,8 @@ if A_ScreenHeight = 1080
 	searchBoxYStart = 290
 	searchBoxXEnd = 770
 	searchBoxYEnd = 860
+
+	circleCut = images\circle_cut_1080p.png
 }
 
 if A_ScreenHeight = 1200
@@ -62,7 +66,7 @@ if A_ScreenHeight = 1200
 			Sleep, 20+RandMix
 		}		
 
-		ImageSearch, fx, fy, searchBoxXStart, searchBoxYStart, searchBoxXEnd, searchBoxYEnd, *40 images\circle_cut_sections_vertical_xs2.png
+		ImageSearch, fx, fy, searchBoxXStart, searchBoxYStart, searchBoxXEnd, searchBoxYEnd, *40 %circleCut%
 		if !ErrorLevel {
 			missCount = 0
 			MouseMove, fx+35+(RandMix/3), fy+5+(RandMix/3), 5
